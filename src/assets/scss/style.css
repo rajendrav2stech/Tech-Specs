@@ -1,0 +1,175 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  margin-bottom: 25px;
+  background-color: #1d5380 !important;
+}
+
+.navbar .navbar-brand img {
+  width: 110px;
+}
+
+.navbar .header_contact a {
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.avtar_ {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #cccccc;
+  margin-right: 6px;
+}
+
+table th {
+  background-color: #1d5380 !important;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+table td {
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1100px;
+}
+
+footer {
+  background-color: #1d5280;
+  padding: 40px;
+}
+
+footer .footer-title {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+footer li {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+footer li a,
+footer li .nav-link {
+  color: #cccccc !important;
+  padding: 0 !important;
+}
+
+.edit_handel .modal-content .modal-header {
+  padding: 10px 15px;
+  background-color: var(--profile-bg);
+}
+
+.edit_handel .modal-content .modal-header .modal-title {
+  font-weight: 700;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.edit_handel .modal-content .modal-header .modal-title img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #a1a1a1;
+  padding: 3px;
+  margin-right: 9px;
+}
+
+.edit_handel .btn-close {
+  font-size: 10px;
+  top: -3px;
+  position: absolute;
+  right: -4px;
+  border-radius: 50px;
+  background-color: #d7d7d7;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.from_body {
+  padding: 5px 25px;
+}
+
+.from_body .form-group label {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px 0;
+}
+
+.from_body .form-group label span {
+  display: inline-block;
+  -webkit-box-flex: 1.5;
+      -ms-flex: 1.5;
+          flex: 1.5;
+  font-size: 14px;
+}
+
+.from_body .form-group label span sup {
+  color: red;
+  font-weight: 900;
+  font-family: "Noto Sans";
+}
+
+.from_body .form-group label input {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 8px 10px;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  color: #9d9d9d;
+}
+
+.handel_action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding: 15px 15px;
+  background-color: var(--profile-bg);
+}
+
+.handel_action button {
+  margin-left: 15px;
+  font-size: 12px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
